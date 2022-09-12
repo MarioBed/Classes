@@ -33,6 +33,7 @@ public class EasyClass {
      * String NRK (pole statyczne w tej klasie) został z niego oczyszczony a następnie dodany na końcu tekstu.
      * Jeśli tekst nie zawiera w sobie Stringa NRK to nie powinien on się znaleźć w liście zwróconej przez metodę.
      * Jeśli tekst zawiera jedynie String NRK to również nie powinien się znaleźć w liście zwróconej przez metodę.
+     * Dodatkowo wszystkie "spacje" powinny zostać usunięte w wyjśćiowej liscie.
      * @param inputList - wejśćiowa lista Stringów
      * @return zmodyfikowana zgodnie z poleceniem lista 'inputList'
      */
